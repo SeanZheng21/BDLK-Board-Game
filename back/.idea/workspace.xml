@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dac75477-302e-40fb-a8ae-5680edbac91a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1S9OIGmYTkkwHaUA0Q7dkAoyUVq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="diaballik.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diaballik.Main" />
+      <module name="diaballik-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diaballik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diaballik-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diaballik.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="diaballik.resource" />
+      <option name="MAIN_CLASS_NAME" value="diaballik.resource.TestGameResource" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameResource.testAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diaballik-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diaballik.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="diaballik.resource" />
+      <option name="MAIN_CLASS_NAME" value="diaballik.resource.TestGameResource" />
+      <option name="METHOD_NAME" value="testAction(javax.ws.rs.client.Client,java.net.URI)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameResource.testRightAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diaballik-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diaballik.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="diaballik.resource" />
+      <option name="MAIN_CLASS_NAME" value="diaballik.resource.TestGameResource" />
+      <option name="METHOD_NAME" value="testRightAction(javax.ws.rs.client.Client,java.net.URI)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGameResource.testWrongAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diaballik-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diaballik.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="diaballik.resource" />
+      <option name="MAIN_CLASS_NAME" value="diaballik.resource.TestGameResource" />
+      <option name="METHOD_NAME" value="testWrongAction(javax.ws.rs.client.Client,java.net.URI)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestGameResource.testRightAction" />
+        <item itemvalue="JUnit.TestGameResource" />
+        <item itemvalue="JUnit.TestGameResource.testAction" />
+        <item itemvalue="JUnit.TestGameResource.testWrongAction" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dac75477-302e-40fb-a8ae-5680edbac91a" name="Default Changelist" comment="" />
+      <created>1570525224751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570525224751</updated>
+      <workItem from="1570525225942" duration="5228000" />
+      <workItem from="1570972040668" duration="158000" />
+      <workItem from="1570972269534" duration="3418000" />
+      <workItem from="1571251637533" duration="6566000" />
+      <workItem from="1571299617857" duration="678000" />
+      <workItem from="1571300309763" duration="3774000" />
+      <workItem from="1571304603030" duration="3897000" />
+      <workItem from="1571329011645" duration="710000" />
+      <workItem from="1571331872817" duration="605000" />
+      <workItem from="1571382108075" duration="255000" />
+      <workItem from="1572887296829" duration="332000" />
+      <workItem from="1572893735934" duration="5885000" />
+      <workItem from="1573204467564" duration="6400000" />
+      <workItem from="1573220490240" duration="5346000" />
+      <workItem from="1573573451206" duration="3573000" />
+      <workItem from="1573639894564" duration="4556000" />
+      <workItem from="1573647050898" duration="605000" />
+      <workItem from="1573663884372" duration="1567000" />
+      <workItem from="1573740810778" duration="3211000" />
+      <workItem from="1573744248118" duration="320000" />
+      <workItem from="1573747290788" duration="1272000" />
+      <workItem from="1573749830937" duration="651000" />
+      <workItem from="1573750898444" duration="1242000" />
+      <workItem from="1573761151100" duration="8896000" />
+      <workItem from="1573823581792" duration="376000" />
+      <workItem from="1574157411198" duration="1550000" />
+      <workItem from="1574600293635" duration="389000" />
+      <workItem from="1574955478525" duration="110000" />
+      <workItem from="1575404260487" duration="150000" />
+      <workItem from="1575470553460" duration="12000" />
+      <workItem from="1575483616114" duration="438000" />
+      <workItem from="1575484621232" duration="257000" />
+      <workItem from="1575530389983" duration="55000" />
+      <workItem from="1575530475271" duration="73000" />
+      <workItem from="1575530929025" duration="592000" />
+      <workItem from="1575536886748" duration="3136000" />
+      <workItem from="1575568012155" duration="561000" />
+      <workItem from="1575571486312" duration="964000" />
+      <workItem from="1575897908132" duration="10000" />
+      <workItem from="1575919562669" duration="1076000" />
+      <workItem from="1575924275634" duration="184000" />
+      <workItem from="1575925172610" duration="150000" />
+      <workItem from="1575986376243" duration="588000" />
+      <workItem from="1576071428843" duration="17000" />
+      <workItem from="1576141916485" duration="1004000" />
+      <workItem from="1576144848110" duration="2332000" />
+      <workItem from="1576150259428" duration="80000" />
+      <workItem from="1576182494730" duration="85000" />
+      <workItem from="1578933578282" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/diaballik_backend$TestGameResource_testNewGamePvSrarting.ic" NAME="TestGameResource.testNewGamePvSrarting Coverage Results" MODIFIED="1573644865294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>diaballik.resource.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

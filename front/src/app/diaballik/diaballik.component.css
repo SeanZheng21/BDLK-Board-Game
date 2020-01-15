@@ -1,0 +1,40 @@
+table, th, td {
+    border: 0px solid black;
+}
+td {
+    height: 50px;
+    width: 70px;
+    font-size: 70px;
+}
+button.even {
+    height: 70px; 
+    width: 70px; 
+    padding: 5px, 5px, 5px, 5px;
+    align-self: center;
+    text-align: center;
+    font-size: 55px;
+    background-color: wheat;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 0px 0px 0 rgba(0,0,0,0.19);
+}
+button.odd {
+
+    height: 70px; 
+    width: 70px; 
+    padding: 5px, 5px, 5px, 5px;
+    align-self: center;
+    text-align: center;
+    font-size: 55px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 0px 0px 0 rgba(0,0,0,0.19);
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

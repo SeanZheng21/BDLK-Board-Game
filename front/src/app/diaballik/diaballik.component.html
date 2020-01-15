@@ -1,0 +1,44 @@
+
+<div class="row" *ngIf="ongoing">
+    <div class="column">
+        <table>
+            <tr *ngFor="let x of [0,1,2,3,4,5,6]">
+                <td *ngFor="let y of [0,1,2,3,4,5,6]">
+                    <button (click)="clickTile($event, y, x)" class="(x+y)%2 == 0 ? even : odd">
+                        {{displayTile(y, x)}}
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="column">
+        <h1>Actions: {{actionCount}}</h1>
+        <br/>
+        <br/>
+        <h1>Player</h1>
+        <h2>1. {{game.getPlayerOne().getName()}} {{game.getPlayerOne().isColorWhite() ? "\u25a1" : "\u25a0"}}   <span *ngIf="turnCount % 2 !== 0 ">&#9756;</span>     </h2>
+        <h2>2. {{game.getPlayerTwo().getName()}} {{game.getPlayerTwo().isColorWhite() ? "\u25a1" : "\u25a0"}}   <span *ngIf="turnCount % 2 === 0 ">&#9756;</span>     </h2>
+        <br/>
+        <br/>
+        <br/>
+        <h2 style="color:red" *ngIf="invalidAction">
+            Invalid Action!!!
+        </h2>
+        <div>
+            <button (click)="next()" [disabled]="actionCount < 3">Next</button>
+            <br/>
+            <button (click)="undo()" [disabled]="actionCount === 0">Undo</button>
+            <br/>
+            <button (click)="redo()" [disabled]="actionCount === 2">Redo</button>
+            <br/>
+            <button (click)="cancelSelection()" [disabled]="!selected">Cancel Selection</button>
+            <br/>
+            <button routerLink="/starter">Start a new game</button>
+        </div>
+    </div>
+</div>
+<div *ngIf="!ongoing">
+    <h1>Congratulations player {{turnCount % 2 === 0 ? "one" : "two"}}, you have won!!!</h1>
+    <h5>Boo! Player {{turnCount % 2 === 0 ? "two" : "one"}}, you suck!!!</h5>
+    <button routerLink="/starter">Start a new game</button>
+</div>

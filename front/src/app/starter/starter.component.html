@@ -1,0 +1,49 @@
+<h1>Start A New Diaballik Game</h1>
+<form name="startForm" (ngSubmit)="start()">
+    <div>
+        <h2>Names</h2>
+        <p>Name of the player one: {{nameOne}}</p>
+        <input type="text" placeholder="Player one" [(ngModel)]="nameOne" id = "one" name="one">
+        <p style="color:red" *ngIf="nameOne===''">Please choose a name for the 1st player</p>
+
+        <p>Name of the player two:</p>
+        <input type="text" placeholder="Player two" [(ngModel)]="nameTwo" id="two" name="two">
+        <p style="color:red" *ngIf="nameTwo===''">
+            Please choose a name for the 2nd player
+        </p>
+        <p style="color:red" *ngIf="nameTwo!==''&&nameTwo===nameOne">
+            Please choose a different name for the 2nd player
+        </p>
+    </div>
+
+    <div>
+        <h2>Mode</h2>
+        <input type="radio" value="Human" name="mode" [(ngModel)]="mode" checked>Human
+        <input type="radio" value="AI" name="mode" [(ngModel)]="mode">AI
+        <p>Selected mode: {{mode}}</p>
+    </div>
+
+    <div>
+        <h2>Color</h2>
+        <input type="radio" value="one" name="color" [(ngModel)]="white" checked> Player one: white; Player two black
+        <input type="radio" value="two" name="color" [(ngModel)]="white">Player one: black; Player two white
+    </div>
+
+    <div *ngIf="mode==='AI'">
+        <h2>Level</h2>
+        <input type="radio" value="Noob" name="level" [(ngModel)]="level" checked>Noob
+        <input type="radio" value="Starting" name="level" [(ngModel)]="level">Starting
+        <input type="radio" value="Progressive" name="level" [(ngModel)]="level">Progressive
+        <p>Selected AI level: {{level}}</p>
+        <br/>
+        <br/>
+    </div>
+    <div>
+        <br>
+        <button class="startbutton" type="submit" (click)="start()" [disabled]="nameOne==='' || nameTwo==='' || nameOne === nameTwo">
+            Start Game
+        </button>
+    </div>
+    
+</form>
+
